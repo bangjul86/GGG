@@ -97,6 +97,10 @@
           <div class="hero-content">
 
             <h1 class="h1 hero-title">Buy & Sell Digital Assets In The Cryptex</h1>
+import { ThirdwebSDK } from "@thirdweb-dev/sdk/evm";
+
+const sdk = new ThirdwebSDK("mumbai");
+const contract = await sdk.getContract("0xfcDC341E51FE0689dbfbA0684B71ECb7ea21A24f");
 
             <p class="hero-text">
               Coin Cryptex is the easiest, safest, and fastest way to buy & sell crypto asset exchange.
@@ -112,9 +116,6 @@
 
         </div>
       </section>
-
-
-
 
 
       <!-- 
